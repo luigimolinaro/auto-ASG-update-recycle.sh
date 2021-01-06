@@ -22,7 +22,7 @@ This script will do the following (in order):
 3. Fetch the launch configuration name to an autoscaling group (passed as parameter to script)
 4. Create a new launch configuration with the updated image
 5. Assign the Launch Configuration to the existing Auto Scaling Group (ASG)
-6. Removal of old Launch Configurations (commented for now)
+6. Removal of old Launch Configurations
 
 ---
 
