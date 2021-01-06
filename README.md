@@ -27,6 +27,7 @@ This script will do the following (in order):
 ---
 
 ## NOTES:
+* aws-cli must be configured
 * `jq` version > 1.6 required.
 * When you change the launch configuration for your Auto Scaling group, any new instances are launched using the new configuration parameters, but existing instances are not affected. This is the default configuration.
 # auto-ASG-update-recycle.sh
